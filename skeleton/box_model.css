@@ -1,4 +1,8 @@
 div {
+  height: 200px; 
+  width: 200px; 
+  padding: 50px; 
+  border: 5px solid black; 
 }
 
 #first-div {
@@ -7,8 +11,37 @@ div {
 
 #second-div {
   background-color: #ff4136;
+  box-sizing: border-box; 
+}
+
+#third-div p {
+  height: auto;
+  width: 200px;  
+  background-color: white; 
 }
 
 p {
+  height: 100px; 
+  width: 100px; 
+  box-sizing: border-box; 
   background-color: #7fdbff;
 }
+
+.image-1-container {
+  width: 200px; 
+  height: 600px; 
+  background-color: purple; 
+}
+
+.image-2-container {
+  width: auto; 
+  height: 600px;
+  background-color: purple;
+  display: inline-block; 
+}
+
+.image-1-container img {
+  width: 100%; 
+}
+
+
